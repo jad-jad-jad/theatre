@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Бигам</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="Бигам - Центров инструмента и техники «Бигам»">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="yandex-tableau-widget" href="images/favicons/yandex-browser-manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/main.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <header class="header">
+          <div class="header__logo"><img src="./images/logo.svg" alt="Логотип БИГТеатра" decoding="async" width="176" height="71"></div>
+          <nav class="header__nav">
+            <ul class="header__list"> 
+              <li class="header__item"> <a class="header__link" href="#about">О спектакле</a></li>
+              <li class="header__item"> <a class="header__link" href="#plays">Пьесы</a></li>
+              <li class="header__item"> <a class="header__link" href="#persons">Люди театра</a></li>
+              <li class="header__item"> <a class="header__link" href="#footer">Контакты</a></li>
+            </ul>
+          </nav>
+          <button class="header__burger active" type="button" aria-label="Открыть мобильное меню"><span></span></button>
+          <div class="header__logo_compose">
+            <div class="header__logo_company"><img src="./images/logo2.svg" alt="Логотип компании Бигам" decoding="async" width="113" height="71"></div>
+            <div class="header__logo_drill"><img src="./images/drill.png" alt="" decoding="async" width="110" height="133"></div>
+          </div>
+        </header>
+        <main class="main">
+          <section class="intro">
+            <h1 class="intro__title">Бигам - сеть центров инструмента и техники</h1>
+            <div class="intro__slider swiper">
+              <div class="intro__wrapper swiper-wrapper">
+                <article class="intro__slide intro__slide--1 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-1.webp, images/intro/intro-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-1.jpg" srcset="images/intro/intro-1.jpg, images/intro/intro-1@2x.jpg 2x" alt="Спектакль Невозможное возможно" width="1027" height="562" decoding="async"/>
+                  </picture><img class="intro__label" src="./images/label-1.svg" alt="">
+                  <div class="intro__slide-content">
+                    <h2 class="intro__name">Спектакль <span>«НЕВОЗМОЖНОЕ<br>ВОЗМОЖНО»</span></h2>
+                    <p class="intro__roles">В ролях <br>сотрудники <br>Бигам</p>
+                    <p class="intro__winners">Лауреат <br>I степени</p>
+                  </div>
+                </article>
+                <article class="intro__slide intro__slide--2 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-2.webp, images/intro/intro-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-2.jpg" srcset="images/intro/intro-2.jpg, images/intro/intro-2@2x.jpg 2x" alt="Пьеса Купальня" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Купальня»</span></h2>
+                  <p class="intro__person">Ген Директор Бигам</p>
+                </article>
+                <article class="intro__slide intro__slide--3 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-3.webp, images/intro/intro-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-3.jpg" srcset="images/intro/intro-3.jpg, images/intro/intro-3@2x.jpg 2x" alt="Пьеса Родственная кровь" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Родственная кровь»</span></h2>
+                  <p class="intro__person">Территориальный <br>руководитель</p>
+                </article>
+                <article class="intro__slide intro__slide--4 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-4.webp, images/intro/intro-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-4.jpg" srcset="images/intro/intro-4.jpg, images/intro/intro-4@2x.jpg 2x" alt="Пьеса Новогодний стол" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Новогодний стол»</span></h2>
+                  <p class="intro__person">Топ Менеджер В2В</p>
+                </article>
+                <article class="intro__slide intro__slide--5 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-5.webp, images/intro/intro-5@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-5.jpg" srcset="images/intro/intro-5.jpg, images/intro/intro-5@2x.jpg 2x" alt="Пьеса Мастаков" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Мастаков»</span></h2>
+                  <p class="intro__person">Топ Менеджер HR</p>
+                </article>
+                <article class="intro__slide intro__slide--6 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-6.webp, images/intro/intro-6@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-6.jpg" srcset="images/intro/intro-6.jpg, images/intro/intro-6@2x.jpg 2x" alt="Пьеса Двойник" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Двойник»</span></h2>
+                  <p class="intro__person">Топ Менеджер Розницы</p>
+                </article>
+                <article class="intro__slide intro__slide--7 swiper-slide">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/intro/intro-7.webp, images/intro/intro-7@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/intro/intro-7.jpg" srcset="images/intro/intro-7.jpg, images/intro/intro-7@2x.jpg 2x" alt="Пьеса Четверо" width="1027" height="562" loading="lazy" decoding="async"/>
+                  </picture>
+                  <h2 class="intro__name">Пьеса <span>«Четверо»</span></h2>
+                  <p class="intro__person">Топ Менеджер Сервисного Центра</p>
+                </article>
+              </div>
+            </div>
+            <div class="intro__pagination"></div>
+          </section>
+          <section class="about" id="about">
+            <div class="about__backstage">
+              <picture class="picture object-fit-cover">
+                <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+              </picture>
+            </div>
+            <p class="about__suptitle">О СПЕКТАКЛЕ</p>
+            <h2 class="about__title"><span>Спектакль «Невозможное&nbsp;возможно»</span></h2>
+            <p class="about__info">Комедия в 6 мини-пьесах</p>
+            <p class="about__author"><span><span>Автор:</span> русский писатель, сатирик, драматург, редактор журнала «Сатирикон» Аркадий Аверченко</span></p>
+            <p class="about__directors"><span>Режиссеры – Ирина Наумкина, Юрий Круглов, ведущие актеры Российского государственного академического театра драмы имени Федора Волкова</span></p>
+            <p class="about__roles"><span>В ролях <br>сотрудники Бигам</span></p>
+            <div class="about__winner"><span>Лауреат I степени <br>IV Международного <br>конкурса театрального <br>искусства «Театральная <br>версия» имени И. С. Тургенева!</span>
+              <div class="about__certificate_preview"><a href="./images/certificate.pdf" aria-label="Загрузить сертификат" target="_blank" download>
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/about/certificate.webp, images/about/certificate@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/about/certificate.jpg" srcset="images/about/certificate.jpg, images/about/certificate@2x.jpg 2x" alt="Превью сертификата" width="240" height="338" loading="lazy" decoding="async"/>
+                  </picture></a></div>
+            </div>
+            <div class="about__duration"><span>Продолжительность спектакля – 1 час 30 мин.</span><span></span></div>
+          </section>
+          <div class="wide__picture">
+            <picture class="picture object-fit-cover">
+              <source class="object-fit-cover" srcset="images/wide-1.webp, images/wide-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/wide-1.png" srcset="images/wide-1.png, images/wide-1@2x.png 2x" alt="" width="1024" height="326" loading="lazy" decoding="async"/>
+            </picture>
+          </div>
+          <section class="plays" id="plays">
+            <h2 class="plays__title section__title">Пьесы</h2>
+            <article class="plays__item plays__item--1">
+              <h3 class="plays__name">«КУПАЛЬНЯ»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">Комедийная история о двух мужчинах, которые пытаются привлечь внимание двух замужних женщин.</p>
+                  <p class="plays__duration">Продолжительность пьесы – 11 мин.</p>
+                  <div class="plays__icon"><img src="./images/label-2.svg" alt="" width="300" height="156" loading="lazy" decoding="async"></div>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-1.webp, images/plays/plays-preview-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-1.jpg" srcset="images/plays/plays-preview-1.jpg, images/plays/plays-preview-1@2x.jpg 2x" alt="Превью пьесы Купальня" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456239999"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Репетиции и взаимодействие с коллегами было самым приятным для меня, было очень много смешных моментов, которые заряжали нас правильной энергией.»</p>
+                      <p class="plays__author">Михаил Бисеров, Генеральный директор Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Кое-кто меня даже не узнал. По словам близких зрителей, я был совсем не похож на себя, но всем понравилось мое выступление.»</p>
+                      <p class="plays__author">Михаил Бисеров, Генеральный директор Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Сложнее всего было поймать образ, а не просто говорить текст, представить себя этим человеком, чтобы играть характер на автомате. При этом, чем больше было репетиций, тем больше мы экспериментировали.»</p>
+                      <p class="plays__author">Алексей Лисовский, менеджер прямых продаж Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Работа над пьесой очень помогла мне прокачать мои профессиональные компетенции: тщательно планировать свое рабочее время, распределять задачи по важности и срочности, ставить задачи сотрудникам ясно и понятно, потому что на репетициях был отключен телефон.»</p>
+                      <p class="plays__author">Соколова Елена, Руководитель магазина Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Я научилась контролировать свое состояние. Убрала страх большого скопления народа.»</p>
+                      <p class="plays__author">Жукова Ирина, Ведущий экономист Бигам</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-1.webp, images/plays/person-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-1.png" srcset="images/plays/person-1.png, images/plays/person-1@2x.png 2x" alt="Михаил Бисеров " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Гамов – </p>
+                    <p class="plays__persons_name">Михаил Бисеров </p>
+                    <p class="plays__persons_position">Генеральный директор Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-2.webp, images/plays/person-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-2.png" srcset="images/plays/person-2.png, images/plays/person-2@2x.png 2x" alt="Алексей Лисовский " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Боков – </p>
+                    <p class="plays__persons_name">Алексей Лисовский </p>
+                    <p class="plays__persons_position">Менеджер прямых продаж Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-3.webp, images/plays/person-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-3.png" srcset="images/plays/person-3.png, images/plays/person-3@2x.png 2x" alt="Елена Соколова " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Ольга  – </p>
+                    <p class="plays__persons_name">Елена Соколова </p>
+                    <p class="plays__persons_position">Руководитель магазина Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-4.webp, images/plays/person-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-4.png" srcset="images/plays/person-4.png, images/plays/person-4@2x.png 2x" alt="Ирина Жукова" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Лиза – </p>
+                    <p class="plays__persons_name">Ирина Жукова</p>
+                    <p class="plays__persons_position">Ведущий экономист</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+            <article class="plays__item plays__item--2">
+              <h3 class="plays__name">«РОДСТВЕННАЯ КРОВЬ»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">История комичной встречи племянника и дяди, скрывающего свое богатство.</p>
+                  <p class="plays__duration">Продолжительность пьесы – 8 мин.</p>
+                  <div class="plays__icon"><img src="./images/chairs.svg" alt="" width="300" height="156" loading="lazy" decoding="async"></div>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-2.webp, images/plays/plays-preview-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-2.jpg" srcset="images/plays/plays-preview-2.jpg, images/plays/plays-preview-2@2x.jpg 2x" alt="Превью пьесы Родственная кровь" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456240000"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Мои близкие смотрели выступление в записи. Все были под впечатлением от масштабов происходящего, ведь они представляли все иначе.»</p>
+                      <p class="plays__author">Сипов Александр, Руководитель розничных продаж территории Юг</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Мне было просто вживаться в роль по причине сходства как внешних, так и внутренних качеств с моим героем.»</p>
+                      <p class="plays__author">Сипов Александр, Руководитель розничных продаж территории Юг</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-2-1.webp, images/plays/person-2-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-2-1.png" srcset="images/plays/person-2-1.png, images/plays/person-2-1@2x.png 2x" alt="Александр Сипов " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Племянник – </p>
+                    <p class="plays__persons_name">Александр Сипов </p>
+                    <p class="plays__persons_position">Руководитель розничных продаж территории Юг</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-2-2.webp, images/plays/person-2-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-2-2.png" srcset="images/plays/person-2-2.png, images/plays/person-2-2@2x.png 2x" alt="Артем Ковальчук" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Дядя – </p>
+                    <p class="plays__persons_name">Артем Ковальчук</p>
+                    <p class="plays__persons_position">Специалист по продвижению в социальных сетях</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+            <article class="plays__item plays__item--3">
+              <h3 class="plays__name">«НОВОГОДНИЙ СТОЛ»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">В Новый год муж застает жену, целующейся с другим, и решает получить из этой ситуации выгоду.</p>
+                  <p class="plays__duration">Продолжительность пьесы – 9 мин.</p>
+                  <div class="plays__icon"><img src="./images/masks-colored.svg" alt="" width="300" height="156" loading="lazy" decoding="async"></div>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-3.webp, images/plays/plays-preview-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-3.jpg" srcset="images/plays/plays-preview-3.jpg, images/plays/plays-preview-3@2x.jpg 2x" alt="Превью пьесы Новогодний стол" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456240001"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Я бы не сказал, что были какие-то большие сложности. Все трудности мы обращали в юмор. И на репетициях не уставали, а наоборот, заряжались энергией.»</p>
+                      <p class="plays__author">Максим Косушкин, Руководитель отдела продаж корпоративным клиентам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Поразила комическая трусость персонажей Кати и Усатова. Они приняли правила игры Будагова и до конца поддерживали легенду о Пасхе.»</p>
+                      <p class="plays__author">Лазарева Полина, Ведущий менеджер по лояльности</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Директор БИГ Театра Екатерина Викторовна сделала мне предложение, от которого я не смог отказаться.»</p>
+                      <p class="plays__author">Максим Косушкин, Руководитель отдела продаж корпоративным клиентам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Коллеги говорили, что не ожидали увидеть настолько качественную и профессиональную постановку.»</p>
+                      <p class="plays__author">Лазарева Полина, Ведущий менеджер по лояльности</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-3-1.webp, images/plays/person-3-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-3-1.png" srcset="images/plays/person-3-1.png, images/plays/person-3-1@2x.png 2x" alt="Косушкин Максим" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Муж Будаговой –</p>
+                    <p class="plays__persons_name">Косушкин Максим</p>
+                    <p class="plays__persons_position">Руководитель отдела продаж корпоративным клиентам Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-3-2.webp, images/plays/person-3-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-3-2.png" srcset="images/plays/person-3-2.png, images/plays/person-3-2@2x.png 2x" alt="Полина Лазарева" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Будагова – </p>
+                    <p class="plays__persons_name">Полина Лазарева</p>
+                    <p class="plays__persons_position">Ведущий менеджер по лояльности</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-3-3.webp, images/plays/person-3-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-3-3.png" srcset="images/plays/person-3-3.png, images/plays/person-3-3@2x.png 2x" alt="Игорь Воронов" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Усатов  –</p>
+                    <p class="plays__persons_name">Игорь Воронов</p>
+                    <p class="plays__persons_position">Инженер по безопасности движения</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+            <article class="plays__item plays__item--4">
+              <h3 class="plays__name">«МАСТАКОВ»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">Смешная история о том, как заставить девушку бросить любимого.</p>
+                  <p class="plays__duration">Продолжительность пьесы – 11 мин.</p>
+                  <div class="plays__icon"><img src="./images/harp.svg" alt="" width="300" height="156" loading="lazy" decoding="async"></div>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-4.webp, images/plays/plays-preview-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-4.jpg" srcset="images/plays/plays-preview-4.jpg, images/plays/plays-preview-4@2x.jpg 2x" alt="Превью пьесы Мастаков" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456240002"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Это очень крутой опыт! Теперь мы, участники постановки, знаем этапы театрального закулисья.»</p>
+                      <p class="plays__author">Юлия Гришаева, Руководитель отдела управления персоналом</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«У меня была роль, которую с лёгкостью удалось сыграть на сцене! Любая мама тревожится за свою дочь, когда та выбирает не того спутника в жизни! В моей жизни не было такой практики, но на сцене, пережила все на 100 процентов.»</p>
+                      <p class="plays__author">Юлия Гришаева, руководитель отдела управления персоналом</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«На финальном выступлении зал аплодировал стоя! Улыбаюсь, вспоминая этот момент.»</p>
+                      <p class="plays__author">Юлия Гришаева, руководитель отдела управления персоналом</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Страх выступления на публике был основной, но он был ожидаемым и контролируемым. Опасения забыть текст решались многократными повторениями роли.»</p>
+                      <p class="plays__author">Ярошенко Дмитрий, Руководитель отдела системного администрирования</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Родители видели видео с репетиции — сначала не узнали, потом удивлены были. Им понравилось.»</p>
+                      <p class="plays__author">Ярошенко Дмитрий, Руководитель отдела системного администрирования</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-4-1.webp, images/plays/person-4-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-4-1.png" srcset="images/plays/person-4-1.png, images/plays/person-4-1@2x.png 2x" alt="Юлия Гришаева" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Евдокия Сергеевна –</p>
+                    <p class="plays__persons_name">Юлия Гришаева</p>
+                    <p class="plays__persons_position">Руководитель отдела управления персоналом</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-4-2.webp, images/plays/person-4-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-4-2.png" srcset="images/plays/person-4-2.png, images/plays/person-4-2@2x.png 2x" alt="Ярошенко Дмитрий" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Макс –</p>
+                    <p class="plays__persons_name">Ярошенко Дмитрий</p>
+                    <p class="plays__persons_position">Руководитель отдела системного администрирования</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+            <article class="plays__item plays__item--5">
+              <h3 class="plays__name">«ДВОЙНИК»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">Оказаться двойником уважаемого и богатого инженера случается не часто. Как использовать все возможности подобной ситуации смотрите в комедии «Двойник».</p>
+                  <p class="plays__duration">Продолжительность пьесы – 28 мин.</p>
+                  <div class="plays__icon"><img src="./images/column.svg" alt="" width="300" height="156" loading="lazy" decoding="async"></div>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-5.webp, images/plays/plays-preview-5@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-5.jpg" srcset="images/plays/plays-preview-5.jpg, images/plays/plays-preview-5@2x.jpg 2x" alt="Превью пьесы Двойник" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456240003"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Когда мне представилась возможность попробовать себя в роли двух разных персонажей одной пьесы, я сразу же согласился. Было интересно проверить свои возможности.»</p>
+                      <p class="plays__author">Арефьев Анатолий, Зам. Генерального Директора по Розничным продажамм</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Это развивает способность понимать и управлять своими эмоциями, а также эмпатию к чувствам и переживаниям других людей.»</p>
+                      <p class="plays__author">Арефьев Анатолий, Зам. Генерального Директора по Розничным продажам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Очень понравилось, как с нами работали наставники. Вкладывали в нас свои опыт и знания, очень ответственно и требовательно подходили к этому проекту. Настоящие профессионалы!»</p>
+                      <p class="plays__author">Голубев Алексей, Руководитель отдела управления ассортиментом Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«На мой взгляд, рецепт здесь прост. К желанию достичь результата мы добавляем опытного наставника, планируем и посещаем все репетиции, и, главное — на сцене нужно сыграть с максимальным азартом и блеском в глазах.»</p>
+                      <p class="plays__author">Синякин Алексей, Ведущий менеджер по мерчендайзингу</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Мне нужно было сдержанно стоять и выяснять, что же происходит, а все эмоции мои проговаривать внутри себя, а так хотелось бы высказать, а в какой-то момент и вовсе дать пощечину.»</p>
+                      <p class="plays__author">Шорохова Алена, Специалист по продажам, Сервисный центр Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Замечаю, что иначе общаюсь с клиентами, более спокойно. Раньше нужно было напрягаться, чтобы сдерживать себя в разговоре.»</p>
+                      <p class="plays__author">Усов Виктор, Начальник производства сервисного центра Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Если бы они не знали, что мы сотрудники Компании, то сказали бы что мы актеры.»</p>
+                      <p class="plays__author">Усов Виктор, Начальник производства сервисного центра Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«С каждым разом проходила неуверенность и становилось легче и уже в какой-то момент, я стала получать удовольствие оттого, что я делаю.»</p>
+                      <p class="plays__author">Огневая Марина, Зам. руководителя отдела маркетинга и рекламы</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Я поняла, что театральное искусство требует много эмоций, сил, огромной работы актера над собой! И работа над собой оказалась самой сложной из задач.»</p>
+                      <p class="plays__author">Огневая Марина, Зам. руководителя отдела маркетинга и рекламы</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-1.webp, images/plays/person-5-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-1.png" srcset="images/plays/person-5-1.png, images/plays/person-5-1@2x.png 2x" alt="Анатолий Арефьев" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Колесакин – проезжий человек, очень похожий на Зайцева – </p>
+                    <p class="plays__persons_name">Анатолий Арефьев</p>
+                    <p class="plays__persons_position">Заместитель генерального директора по розничным продажам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-2.webp, images/plays/person-5-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-2.png" srcset="images/plays/person-5-2.png, images/plays/person-5-2@2x.png 2x" alt="Анатолий Арефьев" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Инженер Зайцев  – </p>
+                    <p class="plays__persons_name">Анатолий Арефьев</p>
+                    <p class="plays__persons_position">Заместитель генерального директора по розничным продажам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-3.webp, images/plays/person-5-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-3.png" srcset="images/plays/person-5-3.png, images/plays/person-5-3@2x.png 2x" alt="Виктор Усов " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Подрядчик Шишигин – </p>
+                    <p class="plays__persons_name">Виктор Усов </p>
+                    <p class="plays__persons_position">Начальник производства сервисного центра Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-4.webp, images/plays/person-5-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-4.png" srcset="images/plays/person-5-4.png, images/plays/person-5-4@2x.png 2x" alt="Голубев Алексей" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Пальцев – </p>
+                    <p class="plays__persons_name">Голубев Алексей</p>
+                    <p class="plays__persons_position">Руководитель отдела управления ассортиментом Бигам </p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-5.webp, images/plays/person-5-5@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-5.png" srcset="images/plays/person-5-5.png, images/plays/person-5-5@2x.png 2x" alt="Марина Огневая " width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Валя - молодая девушка –</p>
+                    <p class="plays__persons_name">Марина Огневая </p>
+                    <p class="plays__persons_position">Заместитель руководителя отдела маркетинга и рекламы</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-6.webp, images/plays/person-5-6@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-6.png" srcset="images/plays/person-5-6.png, images/plays/person-5-6@2x.png 2x" alt="Алена Шорохова" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Жена Зайцева – </p>
+                    <p class="plays__persons_name">Алена Шорохова</p>
+                    <p class="plays__persons_position">Специалист по продажам/ Сервисный центр Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-7.webp, images/plays/person-5-7@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-7.png" srcset="images/plays/person-5-7.png, images/plays/person-5-7@2x.png 2x" alt="Алексей Синякин" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Слуга в ресторане –</p>
+                    <p class="plays__persons_name">Алексей Синякин</p>
+                    <p class="plays__persons_position">Ведущий менеджер по мерчендайзингу</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-5-8.webp, images/plays/person-5-8@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-5-8.png" srcset="images/plays/person-5-8.png, images/plays/person-5-8@2x.png 2x" alt="Артем Ковальчук" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Старик Сергей слуга Зайцева – </p>
+                    <p class="plays__persons_name">Артем Ковальчук</p>
+                    <p class="plays__persons_position">Специалист по продвижению в социальных сетях</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+            <article class="plays__item plays__item--6">
+              <h3 class="plays__name">«ЧЕТВЕРО»</h3>
+              <div class="plays__inner">
+                <div class="plays__backstage">
+                  <picture class="picture object-fit-cover">
+                    <source class="object-fit-cover" srcset="images/backstage.webp, images/backstage@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/backstage.png" srcset="images/backstage.png, images/backstage@2x.png 2x" alt="" width="175" height="496" loading="lazy" decoding="async"/>
+                  </picture>
+                </div>
+                <div class="plays__content"> 
+                  <p class="plays__info">Невероятную историю, произошедшую в купе поезда и раскрывшую человеческие пороки героев смотрите в комедии «Четверо».</p>
+                  <p class="plays__duration">Продолжительность пьесы – 11 мин.</p>
+                  <div class="plays__video_item">
+                    <div class="plays__video_preview video-preview">
+                      <picture class="picture object-fit-cover">
+                        <source class="object-fit-cover" srcset="images/plays/plays-preview-6.webp, images/plays/plays-preview-6@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/plays-preview-6.jpg" srcset="images/plays/plays-preview-6.jpg, images/plays/plays-preview-6@2x.jpg 2x" alt="Превью пьесы Четверо" width="510" height="267" loading="lazy" decoding="async"/>
+                      </picture>
+                      <button class="plays__video_btn video-play-btn" type="button" aria-label="Начать показ видео"><img src="./images/play-btn-red.svg" alt="" width="78" height="78" decoding="async" loading="lazy"></button>
+                    </div>
+                    <div class="plays__video video-block" data-video="https://vk.com/video-106002495_456240004"></div>
+                  </div>
+                  <div class="plays__link_container"><a class="plays__link" href="https://vk.com/video-106002495_456239998" target="_blank"><img src="./images/play-btn-white.svg" alt="" width="37" height="37" decoding="async" loading="lazy"><span>СМОТРЕТЬ ПОЛНУЮ <br>ВЕРСИЮ СПЕКТАКЛЯ</span></a></div>
+                </div>
+              </div>
+              <div class="plays__slider_container js-slider-container">
+                <div class="plays__slider_nav">
+                  <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                  <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                </div>
+                <div class="plays__slider swiper">
+                  <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Мой персонаж – моя противоположность. Для меня мужчина не может быть трусом, тем более не защитить близкого человека»</p>
+                      <p class="plays__author">Вадим Брюхно, Руководитель сервисного центра</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Профессионализм из нас «вытащили» наши замечательные режиссеры.»</p>
+                      <p class="plays__author">Наволочный Иван, Категорийный менеджер ОУА</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Да что мы, если у нас Генеральный директор задал такую высокую планку актерского мастерства, вдохновив остальных актёров!»</p>
+                      <p class="plays__author">Иванов Александр, Категорийный менеджер ОУА</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Мои родные уже не раз видели меня на сцене, так как я принимала участие в конкурсе красоты «Миссис Ярославль 2021».»</p>
+                      <p class="plays__author">Зачиналова Ольга, Менеджер сервисного центра Бигам</p>
+                    </li>
+                    <li class="plays__slide swiper-slide">
+                      <p class="plays__cite">«Пикантная сцена, когда мне пришлось раздеться при коллегах.»</p>
+                      <p class="plays__author">Зачиналова Ольга, Менеджер сервисного центра Бигам</p>
+                    </li>
+                  </ul>
+                  <div class="plays__slider_pagination js-plays-pagination"></div>
+                </div>
+              </div>
+              <ul class="plays__persons">
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-6-1.webp, images/plays/person-6-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-6-1.png" srcset="images/plays/person-6-1.png, images/plays/person-6-1@2x.png 2x" alt="Вадим Брюхно" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Чиновник Четвероруков –</p>
+                    <p class="plays__persons_name">Вадим Брюхно</p>
+                    <p class="plays__persons_position">Руководитель сервисного центра Бигам</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-6-2.webp, images/plays/person-6-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-6-2.png" srcset="images/plays/person-6-2.png, images/plays/person-6-2@2x.png 2x" alt="Александр Иванов" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Незнакомец</p>
+                    <p class="plays__persons_name">Александр Иванов</p>
+                    <p class="plays__persons_position">Категорийный менеджер ОУА</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-6-3.webp, images/plays/person-6-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-6-3.png" srcset="images/plays/person-6-3.png, images/plays/person-6-3@2x.png 2x" alt="Иван Наволочный" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Коммивояжер Сандомирский – </p>
+                    <p class="plays__persons_name">Иван Наволочный</p>
+                    <p class="plays__persons_position">Категорийный менеджер ОУА</p>
+                  </div>
+                </li>
+                <li class="plays__persons_item">
+                  <div class="plays__persons_img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/plays/person-6-4.webp, images/plays/person-6-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/plays/person-6-4.png" srcset="images/plays/person-6-4.png, images/plays/person-6-4@2x.png 2x" alt="Ольга Зачиналова" width="186" height="260" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                  <div class="plays__persons_info"> 
+                    <p class="plays__persons_role">Симочка, его жена – </p>
+                    <p class="plays__persons_name">Ольга Зачиналова</p>
+                    <p class="plays__persons_position">Менеджер сервисного центра Бигам</p>
+                  </div>
+                </li>
+              </ul>
+            </article>
+          </section>
+          <div class="wide__picture wide--2">
+            <picture class="picture object-fit-cover">
+              <source class="object-fit-cover" srcset="images/wide-2.webp, images/wide-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/wide-2.png" srcset="images/wide-2.png, images/wide-2@2x.png 2x" alt="" width="1024" height="326" loading="lazy" decoding="async"/>
+            </picture>
+          </div>
+          <section class="persons" id="persons">
+            <h2 class="persons__title section__title">Люди театра</h2>
+            <div class="persons__list"> 
+              <article class="persons__item">
+                <div class="persons__description">
+                  <div class="persons__info">
+                    <h3 class="persons__name">Ирина Наумкина</h3>
+                    <p class="persons__position">Режиссер спектакля. <br> Актриса Российского государственного <br class="rm_mob">академического театра драмы имени Федора Волкова</p>
+                  </div>
+                  <div class="persons__img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/persons/theater-person-1.webp, images/persons/theater-person-1@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/persons/theater-person-1.png" srcset="images/persons/theater-person-1.png, images/persons/theater-person-1@2x.png 2x" alt="Ирина Наумкина" width="168" height="292" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                </div>
+                <div class="plays__slider_container js-slider-container">
+                  <div class="plays__slider_nav">
+                    <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                    <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                  </div>
+                  <div class="plays__slider swiper">
+                    <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«БИГактеры большие молодцы, они могут справляться с ситуацией! Они получали большое удовольствие от процесса и самих себя. А когда артист на сцене не просто в зажиме говорит слова, а получает удовольствие, то тогда это — большая победа!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Я поражаюсь их желанию и способности овладеть новыми навыками. Вроде взрослые люди, и зачем это! А оказалась нужно! Актеры Бигам друг друга вдохновляли и поддерживали, для меня это дорого стоит.»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Классно, что в какой-то момент актеры стали говорить текстом пьесы в обычной жизни, стали употреблять словечки из текста Аверченко.»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Уверена, что теперь вам любые работы по плечу. За время подготовки спектакля я всех очень полюбила.»</p>
+                      </li>
+                    </ul>
+                    <div class="plays__slider_pagination js-plays-pagination"></div>
+                  </div>
+                </div>
+              </article>
+              <article class="persons__item">
+                <div class="persons__description">
+                  <div class="persons__info">
+                    <h3 class="persons__name">Юрий Круглов</h3>
+                    <p class="persons__position">Режиссер спектакля. <br> Актер Российского государственного  <br class="rm_mob">академического театра драмы имени Федора Волкова <br class="rm_mob"> Лауреат премии «За высокое служение театру»</p>
+                  </div>
+                  <div class="persons__img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/persons/theater-person-2.webp, images/persons/theater-person-2@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/persons/theater-person-2.png" srcset="images/persons/theater-person-2.png, images/persons/theater-person-2@2x.png 2x" alt="Юрий Круглов" width="168" height="292" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                </div>
+                <div class="plays__slider_container js-slider-container">
+                  <div class="plays__slider_nav">
+                    <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                    <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                  </div>
+                  <div class="plays__slider swiper">
+                    <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Они голодные до творческого процесса. И это большое удовольствие, потому что они впитывают как губка. Это, знаете, первые месяцы обучения студентов театрального института.»</p>
+                      </li>
+                    </ul>
+                    <div class="plays__slider_pagination js-plays-pagination"></div>
+                  </div>
+                </div>
+              </article>
+              <article class="persons__item">
+                <div class="persons__description">
+                  <div class="persons__info">
+                    <h3 class="persons__name">Оксана Кузьмина  </h3>
+                    <p class="persons__position">режиссер-хореограф</p>
+                  </div>
+                  <div class="persons__img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/persons/theater-person-3.webp, images/persons/theater-person-3@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/persons/theater-person-3.png" srcset="images/persons/theater-person-3.png, images/persons/theater-person-3@2x.png 2x" alt="Оксана Кузьмина" width="168" height="292" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                </div>
+                <div class="plays__slider_container js-slider-container">
+                  <div class="plays__slider_nav">
+                    <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                    <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                  </div>
+                  <div class="plays__slider swiper">
+                    <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Такой масштабный спектакль - это уникальный продукт. Огромная благодарность лично от меня руководителям компании Бигам за то, что они не побоялись, рискнули, вложили душу в этот спектакль.»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Команда Бигам – это отдельный кайф. Таких позитивных, отзывчивых, активных сотрудников я лично не встречала ни в одной компании!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Проделана огромная работа, организаторами, постановщиками, актерами. И результат превзошел все наши ожидания! О чем свидетельствуют бурные аплодисменты зрителей в зале. »</p>
+                      </li>
+                    </ul>
+                    <div class="plays__slider_pagination js-plays-pagination"></div>
+                  </div>
+                </div>
+              </article>
+              <article class="persons__item">
+                <div class="persons__description">
+                  <div class="persons__info">
+                    <h3 class="persons__name">Екатерина Бисерова </h3>
+                    <p class="persons__position">Директор БИГтеатра <br> Зам. директора по развитию  <br class="rm_mob">персонала Бигам</p>
+                  </div>
+                  <div class="persons__img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/persons/theater-person-4.webp, images/persons/theater-person-4@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/persons/theater-person-4.png" srcset="images/persons/theater-person-4.png, images/persons/theater-person-4@2x.png 2x" alt="Екатерина Бисерова" width="168" height="292" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                </div>
+                <div class="plays__slider_container js-slider-container">
+                  <div class="plays__slider_nav">
+                    <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                    <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                  </div>
+                  <div class="plays__slider swiper">
+                    <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«От замысла до премьеры прошло около 5 месяцев, и от начала репетиций до премьеры – около 3 месяцев. На мой взгляд, это супер быстрый результат!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«О! Это была самая ответственная задача! Результат всегда зависит от того, какую Команду удалось подобрать, и как руководитель организовал условия для того, чтобы эта Команда показала наилучший результат!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Далее с каждым лично побеседовали и поняли, что мы – БИГтеатр!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Дал людям впечатления такого уровня, которые, пожалуй, можно получить только в детстве! »</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Первые репетиции проходили, сидя за столом, так называемая читка. Наш БИГрежиссер Ирина называла этот этап Застольный период.»</p>
+                      </li>
+                    </ul>
+                    <div class="plays__slider_pagination js-plays-pagination"></div>
+                  </div>
+                </div>
+              </article>
+              <article class="persons__item">
+                <div class="persons__description">
+                  <div class="persons__info">
+                    <h3 class="persons__name">Марина Суслова</h3>
+                    <p class="persons__position">Зам. директора БИГтеатра <br> Руководитель отдела обучения Бигам</p>
+                  </div>
+                  <div class="persons__img">
+                    <picture class="picture object-fit-cover">
+                      <source class="object-fit-cover" srcset="images/persons/theater-person-5.webp, images/persons/theater-person-5@2x.webp 2x" type="image/webp"/><img class="picture__img object-fit-cover" src="images/persons/theater-person-5.png" srcset="images/persons/theater-person-5.png, images/persons/theater-person-5@2x.png 2x" alt="Марина Суслова" width="168" height="292" loading="lazy" decoding="async"/>
+                    </picture>
+                  </div>
+                </div>
+                <div class="plays__slider_container js-slider-container">
+                  <div class="plays__slider_nav">
+                    <button class="plays__prev js-nav-prev" type="button" aria-label="Показать предыдущий слайд"></button>
+                    <button class="plays__next js-nav-next" type="button" aria-label="Показать следующий слайд"></button>
+                  </div>
+                  <div class="plays__slider swiper">
+                    <ul class="plays__slider_wrapper swiper-wrapper js-plays-slider">
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Верю в людей и людям! Радуюсь, когда люди становятся лучше и успешнее! Разными способами помогаю им в этом!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Всё получилось, потому что у нас работают прекрасные люди с командным духом, мы верили в каждого!»</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Воплощали в жизнь, казалось бы, самые невыполнимые задачи. Вспоминается момент, когда решили сделать универсальные декорации для спектакля. Через час Максим принес чертежи, на следующий день отделом маркетинга был нарисован проект, а через две недели наши готовые декорации стояли на складе. »</p>
+                      </li>
+                      <li class="plays__slide swiper-slide">
+                        <p class="plays__cite">«Благодарю собственников Компании за то, что разрешили сделать такой проект и не ограничивали нас в идеях! Нашего Генерального директора — за внутреннюю поддержку и пример актёрам. Нашего директора БИГтеатра, смелую, креативную, эстетичную и продуманную до мелочей! Ну и конечно зрителей, за их отклик, эмоции и душевные слова благодарности!»</p>
+                      </li>
+                    </ul>
+                    <div class="plays__slider_pagination js-plays-pagination"></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <div class="footer__top"> 
+          <div class="footer__block footer__block--left">
+            <p class="footer__city">Ярославль</p>
+            <div class="footer__info"> <span>Ярославская область, г.Ярославль, ул.Выставочная, д.12 </span><span>пн.-пт. 9.00 - 19.00,&shy; сб. 9.00 - 18.00,&shy; вс. 9.00 - 17.00</span></div><a class="footer__phone" href="tel:84852732832">8 (4852) 73-2832</a><a class="footer__email" href="mailto:help@bigam.ru">help@bigam.ru</a><a class="footer__feedback" href="#">Обратная связь</a>
+          </div>
+          <div class="footer__block footer__block--right">
+            <div class="footer__first"> 
+              <div class="footer__logo"><img src="./images/logo_footer.svg" alt="logo"></div><a class="footer__freecall" href="tel:88005556973">Бесплатный звонок<br> 8-800-555-69-73</a><a class="footer__site" href="bigam.ru" target="_blank">bigam.ru</a>
+            </div>
+            <div class="footer__second"> 
+              <div class="footer__info"> <a class="footer__policy" href="#">Политика конфиденциальности</a><a class="footer__personality" href="#">Обработка персональных данных</a></div>
+              <div class="footer__social"><a class="footer__social_link" href="#"><img src="./images/vk.svg" alt="Вконтакте"></a><a class="footer__social_link" href="#"><img src="./images/ok.svg" alt="Одноклассники"></a><a class="footer__social_link" href="#"><img src="./images/twitter.svg" alt="Твиттер"></a><a class="footer__social_link" href="#"><img src="./images/youtube.svg" alt="Youtube"></a><a class="footer__social_link" href="#"><img src="./images/telegram.svg" alt="Телеграм"></a></div>
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2009-2024, ООО "БИГАМ-Инвест". Все права защищены</p>
+      </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
